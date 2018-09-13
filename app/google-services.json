@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "103790924205",
+    "firebase_url": "https://traveltalk-fddf5.firebaseio.com",
+    "project_id": "traveltalk-fddf5",
+    "storage_bucket": "traveltalk-fddf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103790924205:android:b5e5403e01ee7046",
+        "android_client_info": {
+          "package_name": "com.example.ankit.traveltalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103790924205-f9u4nqbj5v223b90br1nb589otc0b2mq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankit.traveltalk",
+            "certificate_hash": "5ae59d557d239a010a3a1275a7cf21f86c88d98f"
+          }
+        },
+        {
+          "client_id": "103790924205-nvae8rpgq9nmdhqtne2qi2jc9l22s4m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNUeOGCLpdQsPctIcv4dmMpMhmze6CKsc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103790924205-nvae8rpgq9nmdhqtne2qi2jc9l22s4m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

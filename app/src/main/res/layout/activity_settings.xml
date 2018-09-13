@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradients"
+    tools:context="com.example.ankit.traveltalk.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_display"
+        android:layout_width="200dp"
+        android:layout_height="225dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="165dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="262dp"
+        android:paddingLeft="10dp"
+        android:text="Display Name"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtstatus"
+        android:layout_width="277dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="303dp"
+        android:text="Hey I am Using TravelTalk App"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_cimg"
+        android:layout_width="148dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="418dp"
+        android:background="@drawable/bkgd_red_2"
+        android:text="CHANGE IMAGE"
+        android:textSize="17dp"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnstatus"
+        android:layout_width="148dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="418dp"
+        android:background="@drawable/bkgd_red_2"
+        android:text="CHANGE STATUS"
+        android:textSize="17dp"
+
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
